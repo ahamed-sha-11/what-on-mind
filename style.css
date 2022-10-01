@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;1,100;1,400;1,500&display=swap');
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+body{
+    background: #ebe6e6;
+    text-align: center;
+}
+
+header h1{
+    text-transform: uppercase;
+    margin: 10% 0 0 0;
+    letter-spacing: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1::after{
+    content: ' ';
+    width: 25%;
+    height: 3px;
+    position: absolute;
+    bottom: -.5em;    
+    left: 10;
+    border: 2px solid #629eb6;
+}
+
+.card{
+
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10% 5% ;
+    width: 90%;
+    min-height: 25vh;
+    border-radius:2em;
+}
+
+
+#photo{
+    display: block;
+    margin: 15px 0 15px 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+#name{
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+#job{
+    text-transform: uppercase;
+    color: #629eb6;
+    letter-spacing: 10px;
+    margin: 12px 0;
+}
+
+#text{
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    width: 90%;
+    margin: 0 5% 5% 5% ;
+    text-transform: capitalize;
+    
+}
+
+.navigate{
+    margin: 0  0  0 5%;
+    width: 100%;
+}
+.navigate button{
+
+    border: none;
+    background: transparent;
+    margin: 2%;
+    color: #629eb6;
+
+
+}
