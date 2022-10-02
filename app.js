@@ -71,8 +71,7 @@ let i =0;
 
 
 nextButton.addEventListener("click",()=>{
-// if (i<person.length-1){i++;}
-// else{i=0;}
+
  i = (i<person.length-1)?i+1:i=0;
   let item = person[i];
   images.src = item.img;
@@ -84,8 +83,7 @@ nextButton.addEventListener("click",()=>{
   
 });
 prevButton.addEventListener("click",()=>{
-// if (i<person.length-1){i++;}
-// else{i=0;}
+
  i = (i>0)?i-1:i=person.length-1;
   let item = person[i];
   images.src = item.img;
