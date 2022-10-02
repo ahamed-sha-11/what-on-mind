@@ -51,7 +51,7 @@ const person =[
     img : "baka.jpg",
     name: "robin",
     job : "game dev",
-    text:"don't depend on others make your own way and ride"
+    text:"Loneliness is the precious key to my life 😌"
   }
 ];
 
